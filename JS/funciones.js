@@ -32,7 +32,7 @@ export function desplegarHabilidades() {
 >
   <div
     class="bg-gradient-to-br from-blue-600 via-sky-400 to-red-400  dark:from-red-700 dark:via-sky-700 to-red-700 m-2 h-[60%] rounded-lg"
-  ><img class="w-full h-full object-contain" src="${habilidad.imagen}" alt="html"></div>
+  ><img class="w-full h-full object-contain" src="${habilidad.imagen}" alt="${habilidad.nombre}"></div>
 
   <div class="px-5 pt-2">
     <h2 class="font-semibold">${habilidad.nombre}</h2>

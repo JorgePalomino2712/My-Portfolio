@@ -1,27 +1,27 @@
 export let habilidades=[
     {
         nombre: "HTML",
-        imagen: "../imagenes/html.png",
+        imagen: "./imagenes/html.png",
     },
     {
         nombre: "CSS",
-        imagen: "../imagenes/css.png",
+        imagen: "./imagenes/css.png",
     },
     {
         nombre: "JAVASCRIPT",
-        imagen: "../imagenes/js.png",
+        imagen: "./imagenes/js.png",
     },
     {
         nombre: "TAILWIND",
-        imagen: "../imagenes/tailwind.png",
+        imagen: "./imagenes/tailwind.png",
     },
     {
         nombre: "GIT",
-        imagen: "../imagenes/github.png",
+        imagen: "./imagenes/github.png",
     },
     {
         nombre: "JAVA",
-        imagen: "../imagenes/java.png",
+        imagen: "./imagenes/java.png",
     },
 
 ];
