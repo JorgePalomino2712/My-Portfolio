@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" id="todo">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../JS/mainProyectos.js" defer type="module"></script>
+    <link rel="stylesheet" href="../output.css">
+</head>
+<body class="min-h-screen flex flex-col bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-500"">
+    <!-- Navbar -->
+    <nav
+      class="w-full flex justify-between items-center px-8 py-4 bg-spiderman-red dark:bg-spiderman-blue shadow-md flex-wrap mt-3 sm:mt-0"
+    >
+      <h1 class="text-2xl font-extrabold tracking-wider text-black dark:text-white">
+        🕷️ Mis Proyectos
+      </h1>
+      <div class="flex gap-6 items-center">
+        <a
+          href="../index.html"
+          class="text-black dark:text-white font-semibold hover:underline underline-offset-4"
+          >Inicio</a
+        >
+        <button
+          id="btn-dark"
+          class="dark:text-white font-semibold border dark:border-white/40 px-3 py-1 rounded-lg hover:bg-white hover:text-spiderman-red dark:hover:text-spiderman-blue transition"
+        >
+          🌓 Modo
+        </button>
+      </div>
+    </nav>
+
+    <!-- Encabezado -->
+    <header class="text-center py-10">
+      <h2
+        class="text-4xl font-bold text-spiderman-red dark:text-spiderman-blue drop-shadow-lg"
+      >
+        Mis Proyectos 🕸️
+      </h2>
+      
+    </header>
+
+    <!--  Contenedor de Proyectos -->
+    <main
+      id="proyectos-list"
+      class="grid gap-6 sm:gap-8 px-4 sm:px-10 md:px-20 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 pb-20"
+    >
+      <!-- Aquí se insertarán los proyectos dinámicamente -->
+      <div
+        class="text-center text-gray-400 dark:text-gray-500 italic col-span-full"
+      >
+        
+      </div>
+    </main>
+
+    <!--  Footer -->
+    <footer class="bg-black w-full text-white flex items-center justify-center h-11 text-xs flex-wrap flex-col sm:flex-row">
+    <div class="flex items-center justify-center"">
+      <p >© 2025 Jorge Luis Palomino Sánchez. Derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
